@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 a:hover, a:active {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #1D63FF;
+    background: #c8edff;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #1D63FF;
+    background: #c8edff;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #1D63FF;
+    background-color: #c8edff;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #1D63FF;
+    -webkit-text-fill-color: #c8edff;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #1D63FF;
-    border-color: #1D63FF;
+    background: #c8edff;
+    border-color: #c8edff;
 }
 
 
@@ -872,8 +872,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #1D63FF;
-    color: #1D63FF;
+    border: 0.2rem solid #c8edff;
+    color: #c8edff;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 .stats-tabs li a em {
@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #1D63FF;
+    color: #c8edff;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #1D63FF;
+    background: #c8edff;
 }
 
 
@@ -1513,7 +1513,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 .header-nav p {
@@ -1859,8 +1859,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #1D63FF;
-    border-right: 2px solid #1D63FF;
+    border-bottom: 2px solid #c8edff;
+    border-right: 2px solid #c8edff;
     content: '';
     display: block;
     height: 8px;
@@ -1884,7 +1884,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #1D63FF;
+    background-color: #c8edff;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1944,7 +1944,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #1D63FF;
+    color: #c8edff;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -1981,6 +1981,19 @@ html.cl-loaded .home-content__main {
 html.no-csstransitions .home-content__main {
     opacity: 1;
 }
+
+.input-hint {
+  display: none;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.form-field input:focus + .input-hint,
+.form-field textarea:focus + .input-hint {
+  display: block;
+}
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2126,7 +2139,8 @@ html.no-csstransitions .home-content__main {
         font-size: 3.8rem;
     }
     .home-social {
-        right: 2rem;
+        /* right: 2rem; */
+        left: 13rem;
     }
     .home-social li {
         padding: .6rem 0;
@@ -2208,8 +2222,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #3A5D9C;
-    color: #010507;
+    background-color: #c8edff;
+    color: #212121;
     position: relative;
 }
 
@@ -2413,7 +2427,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #1D63FF;
+    color: #c8edff;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2713,6 +2727,21 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .item-folio__thumb {
+        width: 100%;
+        height: 220px; /* adjust height for your design */
+        overflow: hidden;
+    }
+
+    .item-folio__thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* ensures consistent cropping */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
     .s-works {
         padding-bottom: 12rem;
     }
@@ -2982,7 +3011,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #1D63FF;
+    background: #c8edff;
 }
 
 .s-contact .form-field label::after {
@@ -2993,14 +3022,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #1D63FF;
+    border-right: 5px solid #c8edff;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #1D63FF;
+    background-color: #c8edff;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3027,7 +3056,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 .contact-content input[type="email"],
@@ -3054,7 +3083,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #1D63FF;
+    border-bottom: 1px solid #c8edff;
 }
 
 .contact-content button,
@@ -3145,7 +3174,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 .contact-social li:last-child {
@@ -3168,7 +3197,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 .message-warning i, .message-success i {
@@ -3360,7 +3389,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #1D63FF;
+    color: #c8edff;
 }
 
 footer .row {
@@ -3391,7 +3420,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo/logo-bottom.png") no-repeat center;
+    background: url("../images/logo/logo-top.png") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
@@ -3452,8 +3481,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #1D63FF;
-    border-color: #1D63FF;
+    background: #c8edff;
+    border-color: #c8edff;
     padding: 0 20px;
 }
 

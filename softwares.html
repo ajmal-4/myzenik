@@ -98,7 +98,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/software-banner.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/pos-2.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
 
@@ -146,10 +146,7 @@
                 <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+                <a href="#0"><i class="fa fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -161,7 +158,7 @@
     <section id="products" class="s-products">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Software Solutions</h3>
+                <h3 class="subhead--dark">Our Software Solutions</h3>
                 <h1 class="display-2">Powerful tools designed to accelerate your digital success</h1>
             </div>
         </div>
@@ -172,17 +169,17 @@
                 <!-- Product 1 -->
                 <div class="product-item" data-aos="fade-up">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="MarketingHub Pro">
+                        <img src="images/bi.jpg" alt="BizzArc ERP">
                     </div>
                     <div class="product-content">
-                        <h3>MarketingHub Pro</h3>
-                        <p>An all-in-one marketing automation platform that streamlines your campaigns across multiple channels. MarketingHub Pro combines email marketing, social media management, and analytics into one powerful dashboard.</p>
+                        <h3>BizzArc ERP</h3>
+                        <p>BizzArc ERP is a comprehensive enterprise resource planning solution designed to streamline operations, improve productivity, and provide complete control over your business processes. From finance to inventory, it integrates everything into one smart system.</p>
                         
                         <ul class="product-features">
-                            <li>Multi-channel campaign management</li>
-                            <li>Advanced analytics and reporting</li>
-                            <li>AI-powered content optimization</li>
-                            <li>Real-time performance tracking</li>
+                            <li>Seamless business process integration</li>
+                            <li>Advanced reporting and analytics</li>
+                            <li>Inventory and supply chain management</li>
+                            <li>Customizable workflows</li>
                         </ul>
                         
                         <div class="product-cta">
@@ -194,17 +191,17 @@
                 <!-- Product 2 -->
                 <div class="product-item" data-aos="fade-up">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="SocialSync">
+                        <img src="images/pos.jpg" alt="POS System">
                     </div>
                     <div class="product-content">
-                        <h3>SocialSync</h3>
-                        <p>Revolutionize your social media strategy with SocialSync. This intelligent platform helps you schedule content, engage with audiences, and analyze performance across all major social networks from one unified interface.</p>
+                        <h3>POS System</h3>
+                        <p>Our POS solution is built to simplify sales, manage inventory, and enhance customer experience. From billing to reporting, it empowers businesses to handle transactions efficiently with real-time data access and secure operations.</p>
                         
                         <ul class="product-features">
-                            <li>Cross-platform content scheduling</li>
-                            <li>Engagement monitoring and response</li>
-                            <li>Hashtag optimization tools</li>
-                            <li>Competitor analysis dashboard</li>
+                            <li>Fast and secure billing</li>
+                            <li>Inventory and stock tracking</li>
+                            <li>Customer and loyalty management</li>
+                            <li>Detailed sales reports</li>
                         </ul>
                         
                         <div class="product-cta">
@@ -216,17 +213,17 @@
                 <!-- Product 3 -->
                 <div class="product-item" data-aos="fade-up">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Analytics Engine">
+                        <img src="images/product-3.avif" alt="Customized Softwares">
                     </div>
                     <div class="product-content">
-                        <h3>Analytics Engine</h3>
-                        <p>Transform raw data into actionable insights with our advanced Analytics Engine. Get deep visibility into customer behavior, campaign performance, and ROI with customizable dashboards and predictive analytics.</p>
+                        <h3>Customized Softwares</h3>
+                        <p>We design and develop customized software solutions tailored to your business needs. Whether you require automation, integrations, or unique workflows, our solutions are built to align with your goals and scale with your growth.</p>
                         
                         <ul class="product-features">
-                            <li>Custom dashboard creation</li>
-                            <li>Predictive analytics and forecasting</li>
-                            <li>Real-time data visualization</li>
-                            <li>Integration with 100+ platforms</li>
+                            <li>Tailor-made solutions for your business</li>
+                            <li>Scalable and flexible design</li>
+                            <li>Integration with existing systems</li>
+                            <li>Ongoing support and updates</li>
                         </ul>
                         
                         <div class="product-cta">
@@ -259,47 +256,60 @@
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form id="contactForm" method="POST" novalidate>
                     <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Tell us about your digital marketing goals" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
+
+                        <!-- Name -->
+                        <div class="form-field">
+                            <input name="name" type="text" id="contactName" placeholder="Your Name" minlength="2" required class="full-width">
+                            <small class="input-hint">Please enter at least 2 characters.</small>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-field">
+                            <input name="email" type="email" id="contactEmail" placeholder="Your Email" required class="full-width">
+                            <small class="input-hint">Enter a valid email address (e.g., yourname@example.com).</small>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="form-field">
+                            <input name="subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
+                            <small class="input-hint">Optional — add a subject for your message.</small>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-field">
+                            <textarea name="message" id="contactMessage" placeholder="Tell us about your digital marketing goals" rows="10" required class="full-width"></textarea>
+                            <small class="input-hint">Message cannot be empty.</small>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="form-field">
+                            <button class="full-width btn--primary" type="submit">Submit</button>
+                            <div class="submit-loader" style="display:none;">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
+
                     </fieldset>
                 </form>
 
                 <!-- contact-warning -->
-                <div class="message-warning">
+                <div class="message-warning" style="display:none;">
                     Something went wrong. Please try again.
                 </div> 
-            
+
                 <!-- contact-success -->
-                <div class="message-success">
+                <div class="message-success" style="display:none;">
                     Your message was sent, thank you!<br>
                 </div>
 
-            </div> <!-- end contact-primary -->
+            </div>
 
             <div class="contact-secondary">
                 <div class="contact-info">
@@ -343,10 +353,7 @@ Sultanate of Oman
                             <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                         </li>
                     </ul> <!-- end contact-social -->
 
