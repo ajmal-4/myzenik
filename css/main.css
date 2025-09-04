@@ -2140,7 +2140,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-social {
         /* right: 2rem; */
-        left: 13rem;
+        left: 12rem;
     }
     .home-social li {
         padding: .6rem 0;
@@ -2729,7 +2729,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 600px) {
     .item-folio__thumb {
         width: 100%;
-        height: 220px; /* adjust height for your design */
+        height: 200px; /* adjust height for your design */
         overflow: hidden;
     }
 
