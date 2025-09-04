@@ -1,6 +1,6 @@
 /* =================================================================== 
  *
- *  Myzenik v1.0 Main Stylesheet
+ *  Zeniq v1.0 Main Stylesheet
  *  11-20-2017
  *  ------------------------------------------------------------------
  *
@@ -2175,7 +2175,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-social li {
         display: inline-block;
-        margin-right: 0.6rem;
+        margin-right: 0.5rem;
         padding: 0.3rem 0;
     }
 }
@@ -2940,8 +2940,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-color: rgba(255, 255, 255, 0.05);
+    /* background-image: url("../images/contact-bg.jpg"); */
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3391,7 +3391,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-top.png") no-repeat center;
+    background: url("../images/logo/logo-bottom.png") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
@@ -3607,5 +3607,128 @@ footer .row {
     }
 }
 
+/* Software Products Section Styles */
+.s-products {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+    background-color: #f8f9fa;
+}
+
+.product-item {
+    margin-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.product-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.product-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 2rem;
+}
+
+.product-content h3 {
+    font-size: 3.2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.product-content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.product-features {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.product-features li {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.product-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.product-cta {
+    margin-top: 3rem;
+}
+
+.product-cta .btn {
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.product-cta .btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+    .product-item,
+    .product-item:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image,
+    .product-content {
+        max-width: 100%;
+    }
+
+    .product-content {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .s-products {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+    }
+
+    .product-item {
+        margin-bottom: 6rem;
+    }
+
+    .product-content h3 {
+        font-size: 2.4rem;
+    }
+}
 
 /*# sourceMappingURL=main.css.map */
