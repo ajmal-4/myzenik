@@ -3765,7 +3765,7 @@ footer .row {
     position: fixed;
     bottom: 20px;         /* adjust as needed */
     left: 20px;          /* place near go-top or opposite */
-    z-index: 999;
+    z-index: 600;
 }
 
 .go-whatsapp a {
