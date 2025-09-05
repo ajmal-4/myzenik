@@ -3760,4 +3760,31 @@ footer .row {
     }
 }
 
+
+.go-whatsapp {
+    position: fixed;
+    bottom: 20px;         /* adjust as needed */
+    left: 20px;          /* place near go-top or opposite */
+    z-index: 999;
+}
+
+.go-whatsapp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #25D366;   /* WhatsApp green */
+    color: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: background 0.3s;
+}
+
+.go-whatsapp a:hover {
+    background: #20b954;
+}
+
+
 /*# sourceMappingURL=main.css.map */
