@@ -3155,6 +3155,16 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 4.8rem;
 }
 
+.cinfo a {
+  color: inherit;      /* make link take the same color as surrounding text */
+  text-decoration: none; /* remove underline */
+}
+
+.cinfo a:hover {
+  color: #c8edff;      /* optional: change color on hover */
+  text-decoration: underline; /* optional: show underline only on hover */
+}
+
 .contact-social {
     list-style: none;
     display: inline-block;
